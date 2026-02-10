@@ -1,0 +1,181 @@
+.experience {
+  padding: 6rem 10%;
+  background: #0b0612; 
+  color: #fff;
+  overflow: hidden; 
+}
+
+.experience-container {
+  max-width: 1000px; 
+  margin: 0 auto;
+}
+
+.section-label {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #a78bfa;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.experience h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+.experience h2 .highlight {
+  color: #c4b5fd;
+  position: relative;
+  display: inline-block;
+}
+
+.experience h2 .highlight::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 4px;
+  background: #8b5cf6;
+  border-radius: 2px;
+}
+
+
+.timeline {
+  position: relative;
+  width: 100%;
+}
+
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(139, 92, 246, 0.3); 
+}
+
+.timeline-item {
+  width: 50%;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-item.left {
+  left: 0;
+  padding-right: 3rem; 
+}
+
+.timeline-item.right {
+  left: 50%;
+  padding-left: 3rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 20px; 
+  width: 12px;
+  height: 12px;
+  background: #8b5cf6;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.8);
+  z-index: 2;
+}
+
+.timeline-item.left .timeline-dot {
+  right: -6px;
+}
+
+.timeline-item.right .timeline-dot {
+  left: -6px;
+}
+
+
+.timeline-card {
+  background: rgba(20, 15, 30, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  transition: transform 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+
+
+.card-icon-box {
+  min-width: 50px;
+  height: 50px;
+  background: rgba(139, 92, 246, 0.15);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a78bfa;
+  font-size: 1.4rem;
+}
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-card h3 {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+
+.org-name {
+  font-size: 0.85rem;
+  color: #8b5cf6; 
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.timeline-card p {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .experience h2 {
+    font-size: 2.2rem;
+  }
+
+
+  .timeline-line {
+    left: 20px; 
+  }
+
+
+  .timeline-item {
+    width: 100%;
+    left: 0 !important;
+    padding-left: 3.5rem; 
+    padding-right: 0;
+  }
+
+
+  .timeline-item.left .timeline-dot,
+  .timeline-item.right .timeline-dot {
+    left: 14px; 
+    right: auto;
+  }
+}

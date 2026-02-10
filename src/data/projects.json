@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Gerenciamento de Salões",
+    "description": "Sistema web Mobile First para gestão de salões, com agendamento e fluxo de caixa. Arquitetura em containers Docker.",
+    "tags": ["React", "C# .NET", "SQL Server", "Docker", "Figma"],
+    "type": "Full Stack",
+    "status": "Recente",
+    "githubLink": "https://github.com/camila-cavalcante23/gerencia_saloes"
+  },
+  {
+    "title": "Portal StartUFC",
+    "description": "Portal interativo para o ecossistema de startups. Front-end React integrado a uma API C# .NET e SQL Server.",
+    "tags": ["React", "JavaScript", "CSS3", "Figma"],
+    "type": "Front-end",
+    "githubLink": "https://github.com/camila-cavalcante23/Projeto-III-Start-"
+  },
+  {
+    "title": "Lembrete de Remédios",
+    "description": "Sistema para auxiliar familiares no gerenciamento de medicações, com alertas e organização de horários.",
+    "tags": ["React", "Node.js", "API Rest"],
+    "type": "Full Stack",
+    "status": "Em Andamento",
+    "githubLink": "https://github.com/camila-cavalcante23/Lembrete_de_Remedios"
+  },
+  {
+    "title": "Lista de Tarefas Full Stack",
+    "description": "Aplicação SPA de produtividade realizando operações CRUD completas. Front-end React integrado a uma API C# .NET.",
+    "tags": ["React", "C# .NET", "Axios", "In-Memory DB"],
+    "type": "Full Stack",
+    "githubLink": "https://github.com/camila-cavalcante23/Web4_Lista_Final"
+  },
+  {
+    "title": "Aplicação de Notícias",
+    "description": "Aplicação responsiva com Angular Standalone e RxJS. Inclui busca dinâmica e criação de posts consumindo API REST.",
+    "tags": ["Angular", "RxJS", "TypeScript", "API Rest"],
+    "type": "Front-end",
+    "githubLink": "https://github.com/camila-cavalcante23/teste-angular"
+  },
+  {
+    "title": "Site de Casamento",
+    "description": "Convite digital interativo com animação de abertura, RSVP via WhatsApp, timer regressivo e função de copiar Pix.",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "type": "Front-end",
+    "githubLink": "https://github.com/camila-cavalcante23/lista_de_presentes_A-D"
+  },
+  {
+    "title": "Portfólio Pessoal",
+    "description": "Este portfólio! Desenvolvido para apresentar meus projetos e habilidades, utilizando boas práticas de React.",
+    "tags": ["React", "CSS Modules", "Vite"],
+    "type": "Front-end",
+    "githubLink": "https://github.com/camila-cavalcante23/portfolioC"
+  }
+]
