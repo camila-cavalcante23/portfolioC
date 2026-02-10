@@ -3,13 +3,14 @@ import { FaCode, FaCoffee } from "react-icons/fa";
 import { IoSparklesSharp } from "react-icons/io5"; 
 import { BiTargetLock } from "react-icons/bi"; 
 import "./About.css";
+import fotoPerfil from "../assets/perfil.png";
 
 export default function About() {
   return (
     <section id="about" className="about">
       <div className="about-container">
         
-       
+ 
         <div className="about-left">
           <span className="section-label">SOBRE MIM</span>
 
@@ -18,15 +19,15 @@ export default function About() {
           </h2>
 
           <div className="about-content">
-            <div className="image-wrapper">
-                <img
-                src="src\assets\fotoP.png" 
-                alt="Camila Paiva"
-                className="profile-img"
-                />
+            
+          
+            <div className="about-image">
+    
+               <img src={fotoPerfil} alt="Camila Paiva" className="profile-img" />
             </div>
 
-       <div className="about-description">
+         
+            <div className="about-description">
               <p>
                 Olá! Sou a Camila, técnica em Administração e graduanda em
                 <strong> Sistemas de Informação</strong> pela UFC.
@@ -38,18 +39,18 @@ export default function About() {
               </p>
               
               <p>
-                Além da stack web, possuo conhecimentos sólidos em <strong>Java, C e Python</strong>.Utilizo <strong>Git e GitHub</strong> diariamente 
+                Além da stack web, possuo conhecimentos sólidos em <strong>Java, C e Python</strong>. Utilizo <strong>Git e GitHub</strong> diariamente 
                 para versionamento e colaboração.
               </p>
 
               <p>
                 Na prática, atuei na prototipação e desenvolvimento do site para o programa 
-                <strong>StartUFC</strong>. Atualmente, estou desenvolvendo um <strong>sistema 
+                <strong> StartUFC</strong>. Atualmente, estou desenvolvendo um <strong>sistema 
                 de lembretes de remédios</strong> para auxiliar familiares no gerenciamento de medicações.
               </p>
 
               <p>
-                Bom, para finalizar: nas horas vagas, adoro <strong>desenhar, pintar, fazer artesanato...</strong>. Também não dispenso um <strong>bom filme</strong> (com muita 
+                Bom, para finalizar: nas horas vagas, adoro <strong>desenhar, pintar, fazer artesanato...</strong> Também não dispenso um <strong>bom filme</strong> (com muita 
                 pipoca, claro!).
               </p>
 
@@ -62,7 +63,8 @@ export default function About() {
           </div>
         </div>
 
-<div className="about-right">
+      
+        <div className="about-right">
           <div className="cards-grid">
             
             <div className="card">

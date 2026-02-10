@@ -229,3 +229,24 @@
     text-align: center;
   }
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+  .home-content h2 span {
+    display: block !important;
+    font-size: 1rem !important;
+    margin-top: 5px !important;
+    
+
+    background: none !important;
+    -webkit-text-fill-color: initial !important; 
+    
+  
+    color: var(--primary-color) !important;
+    
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}

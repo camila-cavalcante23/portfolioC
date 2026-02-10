@@ -243,3 +243,50 @@
       font-size: 2.2rem;
   }
 }
+/* --- ATUALIZE ISSO NO FINAL DO ARQUIVO Projects.css --- */
+
+/* 1. Animação de Pulso (Deixei um pouco mais suave: 2s) */
+@keyframes pulse-purple {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(130, 87, 229, 0.7);
+  }
+  70% {
+    transform: scale(1.05); /* Cresce menos para não enjoar */
+    box-shadow: 0 0 0 10px rgba(130, 87, 229, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(130, 87, 229, 0);
+  }
+}
+
+
+.project-card .header-right .github-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+  
+
+  color: var(--primary-color); 
+  background-color: rgba(130, 87, 229, 0.1); 
+  
+  font-size: 1.2rem;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+
+  animation: pulse-purple 1.7s infinite;
+}
+
+
+.project-card .header-right .github-icon:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.1); 
+  cursor: pointer;
+
+}
