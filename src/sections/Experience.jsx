@@ -3,6 +3,15 @@ import { FaBriefcase, FaGraduationCap, FaAward } from "react-icons/fa6"; // Íco
 import "./Experience.css";
 
 const experiences = [
+
+  {
+    title: "Projeto de Extensão",
+    org: "Mineração Acessível - UFC",
+    description:
+      "Desenvolvimento de uma plataforma de acessibilidade comunicacional trilíngue (Português, Inglês e Libras) para promover inclusão de pessoas surdas no setor mineral, atuando em atividades de desenvolvimento Full Stack, banco de dados e acessibilidade digital.",
+    side: "right",
+    icon: <FaGraduationCap />, 
+  },
   {
     title: "Bolsista de Iniciação Científica",
     org: "CNPq",

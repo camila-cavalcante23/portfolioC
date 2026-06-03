@@ -15,12 +15,12 @@
     "githubLink": "https://github.com/camila-cavalcante23/Projeto-III-Start-"
   },
   {
-    "title": "Lembrete de Remédios",
-    "description": "Sistema para auxiliar familiares no gerenciamento de medicações, com alertas e organização de horários.",
-    "tags": ["React", "Node.js", "API Rest"],
+    "title": "Mineração Acessível ",
+    "description": "Plataforma web trilíngue (Português, Inglês e Libras) voltada à acessibilidade comunicacional e inclusão de pessoas surdas no setor mineral.",
+    "tags": ["React", "Docker", "SQL Server", "WCAG", "Figma"],
     "type": "Full Stack",
     "status": "Em Andamento",
-    "githubLink": "https://github.com/camila-cavalcante23/Lembrete_de_Remedios"
+    "githubLink": "https://github.com/camila-cavalcante23/mineracao-acessivel"
   },
   {
     "title": "Lista de Tarefas Full Stack",

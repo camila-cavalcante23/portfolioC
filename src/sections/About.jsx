@@ -44,9 +44,12 @@ export default function About() {
               </p>
 
               <p>
-                Na prática, atuei na prototipação e desenvolvimento do site para o programa 
-                <strong> StartUFC</strong>. Atualmente, estou desenvolvendo um <strong>sistema 
-                de lembretes de remédios</strong> para auxiliar familiares no gerenciamento de medicações.
+                Na prática, atuei na prototipação e desenvolvimento do sistema <strong>Meu Salão</strong>, com foco em empreendedores locais
+              . Atualmente, estou desenvolvendo uma plataforma de acessibilidade comunicacional trilíngue (Português, Inglês e Libras) voltada ao <strong>setor mineral.
+              </strong>O projeto tem como objetivo promover inclusão e acessibilidade para pessoas
+               surdas, e minha atuação envolve atividades de desenvolvimento Full Stack, modelagem de 
+               banco de dados, integração de APIs, sincronização de dados e aplicação de diretrizes 
+               de acessibilidade WCAG.
               </p>
 
               <p>
